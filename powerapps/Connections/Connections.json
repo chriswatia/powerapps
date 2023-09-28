@@ -1,0 +1,32 @@
+{
+  "2673b131-382e-4131-9f9d-bbc0059933f5": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3414/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://seaburysolutions.sharepoint.com/sites/MyApp": {
+        "dataSources": {
+          "Employee_Info": {
+            "tableName": "3442d39c-4190-4ef1-a717-cfd701baf9f8"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Employee_Info"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2673b131-382e-4131-9f9d-bbc0059933f5"
+  }
+}
